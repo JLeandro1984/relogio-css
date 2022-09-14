@@ -26,8 +26,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--main-bg-color)
-	background-image: url("http://imvpn22.github.io/analog-clock/clock.png");
+	background-color: var(--main-bg-color);
+	background-image: url("https://raw.githubusercontent.com/JLeandro1984/relogio-css/main/img/clock.png");
 	background-position: center center;
 	background-size: cover;
 	border-radius: 50%;
@@ -38,7 +38,7 @@ body {
 .clock:before {
 	content: "";
 	height: 0.75rem;
-	width: 0.75rem
+	width: 0.75rem;
 	background-color: var(--main-text-color);
 	border: 2px solid var(--main-bg-color);
 	position: absolute;
